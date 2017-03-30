@@ -5,6 +5,10 @@
 @import "pack/seed-publish/_index";
 @import "../config";
 
+// Modifiers
+@import "./modifiers/hover";
+@import "./modifiers/tabs";
+
 @include export(seed-nav) {
   .#{$seed-nav-namespace} {
     box-sizing: border-box;
@@ -37,3 +41,4 @@
     }
   }
 }
+

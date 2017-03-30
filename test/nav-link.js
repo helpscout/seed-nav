@@ -17,6 +17,20 @@ describe('seed-nav: nav-link component', function() {
     assert.equal($o.getProp('box-sizing'), 'border-box');
   });
 
+  it('should have alignment modifiers', function() {
+    var $l = output.$('.c-nav__link--left');
+    assert.isOk($l.exists());
+
+    var $r = output.$('.c-nav__link--right');
+    assert.isOk($r.exists());
+  });
+
+  it('should include an active state', function() {
+    var $o = output.$('.c-nav__link.is-active');
+
+    assert.isOk($o.exists());
+  });
+
   it('should include a disabled state', function() {
     var $o = output.$('.c-nav__link.is-disabled');
 

@@ -7,5 +7,14 @@
 @include export(seed-nav) {
   .#{$seed-nav-item-namespace} {
     box-sizing: border-box;
+
+    // Modifiers: Alignment
+    $mod: "-"; // Modifier prefix
+    &#{$mod} {
+      @include breakpoint-prop-map($seed-nav-item-alignment, (m)) {
+        $margin: prop(m);
+        #{$margin}: auto;
+      }
+    }
   }
 }

@@ -14,11 +14,14 @@
       border-bottom-style: solid;
       border-bottom-width: $seed-nav-tabs-link-border-width;
       color: $seed-nav-tabs-link-color;
+    }
 
-      &.#{$seed-nav-link-active-namespace} {
-        border-bottom-color: $seed-nav-tabs-link-active-border-color;
-        color: $seed-nav-tabs-link-active-color;
-      }
+    // States: Active
+    .#{$seed-nav-item-namespace}.#{$seed-nav-link-active-namespace} > #{$seed-nav-link-namespace},
+    .#{$seed-nav-link-namespace}.#{$seed-nav-link-active-namespace} {
+      border-bottom-color: $seed-nav-tabs-link-active-border-color;
+      color: $seed-nav-tabs-link-active-color;
+      font-weight: $seed-nav-tabs-link-active-font-weight;
     }
   }
 }

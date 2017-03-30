@@ -156,12 +156,12 @@
     .c-nav__link--right\@lg {
       margin-left: auto; } }
 
-.c-nav__item.is-active > c-nav__link,
+.c-nav__item.is-active > .c-nav__link,
 .c-nav__link.is-active {
   color: #3197d9;
   font-weight: 700; }
 
-.c-nav__item.is-disabled > c-nav__link,
+.c-nav__item.is-disabled > .c-nav__link,
 .c-nav__link.is-disabled {
   color: #E3E8EB;
   cursor: not-allowed; }

@@ -44,11 +44,26 @@ The following variables can be found in `_config.scss`
 $seed-nav-namespace: c-nav !default;
 $seed-nav-item-namespace: #{$seed-nav-namespace}__item !default;
 $seed-nav-link-namespace: #{$seed-nav-namespace}__link !default;
+$seed-nav-hover-namespace: #{$seed-nav-namespace}--hover !default;
 $seed-nav-tabs-namespace: #{$seed-nav-namespace}--tabs !default;
+$seed-nav-link-active-namespace: is-active !default;
+$seed-nav-link-disabled-namespace: is-disabled !default;
+$seed-nav-link-font-weight: 400 !default;
 
 // Configs
 $seed-nav-link-padding: 16px 20px !default;
+$seed-nav-link-color: #4f5d6b !default;
+$seed-nav-link-active-color: #3197d9 !default;
+$seed-nav-link-active-font-weight: 700 !default;
 $seed-nav-link-disabled-color: #E3E8EB !default;
+
+$seed-nav-link-hover-background-color: #e3e8eb !default;
+
+$seed-nav-tabs-link-border-width: 2px !default;
+$seed-nav-tabs-link-color: #a5b2bd !default;
+$seed-nav-tabs-link-active-color: #2a3b47 !default;
+$seed-nav-tabs-link-active-border-color: #3197d6 !default;
+$seed-nav-tabs-link-active-font-weight: $seed-nav-link-font-weight !default;
 
 // Alignment
 $seed-nav-alignment: (
@@ -65,8 +80,15 @@ $seed-nav-orientation: (
 
 // Sizes
 $seed-nav-sizes: (
-  xs: 4px 8px,
-  sm: 12px 16px,
-  md: $seed-nav-link-padding,
+  xs: 4px 20px,
+  sm: 8px 20px,
+  md: 12px 20px,
+  lg: $seed-nav-link-padding,
+) !default;
+
+// Item Alignment
+$seed-nav-item-alignment: (
+  left: margin-right,
+  right: margin-left,
 ) !default;
 ```

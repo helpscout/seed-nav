@@ -5,10 +5,16 @@ $seed-nav-namespace: c-nav !default;
 $seed-nav-item-namespace: #{$seed-nav-namespace}__item !default;
 $seed-nav-link-namespace: #{$seed-nav-namespace}__link !default;
 $seed-nav-tabs-namespace: #{$seed-nav-namespace}--tabs !default;
+$seed-nav-link-active-namespace: is-active !default;
 
 // Configs
 $seed-nav-link-padding: 16px 20px !default;
 $seed-nav-link-disabled-color: #E3E8EB !default;
+
+$seed-nav-tabs-link-border-width: 2px !default;
+$seed-nav-tabs-link-color: #a5b2bd !default;
+$seed-nav-tabs-link-active-color: #2a3b47 !default;
+$seed-nav-tabs-link-active-border-color: #3197d6 !default;
 
 // Alignment
 $seed-nav-alignment: (

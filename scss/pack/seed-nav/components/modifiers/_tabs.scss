@@ -3,10 +3,22 @@
 // Dependencies
 @import "pack/seed-border/config";
 @import "pack/seed-publish/_index";
-@import "../..config";
+@import "../../config";
 
 @include export(seed-nav) {
   .#{$seed-nav-tabs-namespace} {
     border-bottom: $seed-border;
+
+    .#{$seed-nav-link-namespace} {
+      border-bottom-color: transparent;
+      border-bottom-style: solid;
+      border-bottom-width: $seed-nav-tabs-link-border-width;
+      color: $seed-nav-tabs-link-color;
+
+      &.#{$seed-nav-link-active-namespace} {
+        border-bottom-color: $seed-nav-tabs-link-active-border-color;
+        color: $seed-nav-tabs-link-active-color;
+      }
+    }
   }
 }

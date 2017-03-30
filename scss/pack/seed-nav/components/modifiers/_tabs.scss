@@ -1,0 +1,12 @@
+// Modifiers :: Tabs
+
+// Dependencies
+@import "pack/seed-border/config";
+@import "pack/seed-publish/_index";
+@import "../..config";
+
+@include export(seed-nav) {
+  .#{$seed-nav-tabs-namespace} {
+    border-bottom: $seed-border;
+  }
+}

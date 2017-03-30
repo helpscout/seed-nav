@@ -1,0 +1,11 @@
+// Components :: Nav Item
+
+// Dependencies
+@import "pack/seed-publish/_index";
+@import "../config";
+
+@include export(seed-nav) {
+  .#{$seed-nav-item-namespace} {
+    box-sizing: border-box;
+  }
+}

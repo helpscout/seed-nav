@@ -1,1 +1,31 @@
-// nav :: Config
+// Nav :: Config
+
+// Namespaces
+$seed-nav-namespace: c-nav !default;
+$seed-nav-item-namespace: #{$seed-nav-namespace}__item !default;
+$seed-nav-link-namespace: #{$seed-nav-namespace}__link !default;
+$seed-nav-tabs-namespace: #{$seed-nav-namespace}--tabs !default;
+
+// Configs
+$seed-nav-link-padding: 16px 20px !default;
+$seed-nav-link-disabled-color: #E3E8EB !default;
+
+// Alignment
+$seed-nav-alignment: (
+  left: flex-start,
+  center: center,
+  right: flex-end,
+) !default;
+
+// Orientation
+$seed-nav-orientation: (
+  list: row,
+  stacked: column,
+) !default;
+
+// Sizes
+$seed-nav-sizes: (
+  xs: 4px 8px,
+  sm: 12px 16px,
+  md: $seed-nav-link-padding,
+) !default;

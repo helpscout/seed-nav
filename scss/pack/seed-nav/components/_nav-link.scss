@@ -1,0 +1,19 @@
+// Components :: Nav Link
+
+// Dependencies
+@import "pack/seed-publish/_index";
+@import "../config";
+
+@include export(seed-nav) {
+  .#{$seed-nav-link-namespace} {
+    box-sizing: border-box;
+    display: block;
+    padding: $seed-nav-link-padding;
+
+    // States
+    &.is-disabled {
+      color: $seed-nav-link-disabled-color;
+      cursor: not-allowed;
+    }
+  }
+}

@@ -1,4 +1,4 @@
-# seed-nav [![npm version](https://badge.fury.io/js/seed-nav.svg)](https://badge.fury.io/js/seed-nav)
+# seed-nav [![Build Status](https://travis-ci.org/helpscout/seed-nav.svg?branch=master)](https://travis-ci.org/helpscout/seed-nav) [![npm version](https://badge.fury.io/js/seed-nav.svg)](https://badge.fury.io/js/seed-nav)
 
 Nav component pack for [Seed](https://github.com/helpscout/seed)!
 

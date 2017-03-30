@@ -1,6 +1,6 @@
 # seed-nav [![npm version](https://badge.fury.io/js/seed-nav.svg)](https://badge.fury.io/js/seed-nav)
 
-nav component pack for [Seed](https://github.com/helpscout/seed)!
+Nav component pack for [Seed](https://github.com/helpscout/seed)!
 
 ## Install
 ```
@@ -40,5 +40,33 @@ Once that is setup, simply `@import` *seed-nav* as needed in your `.scss` file:
 The following variables can be found in `_config.scss`
 
 ```scss
-seed-nav config options
+// Namespaces
+$seed-nav-namespace: c-nav !default;
+$seed-nav-item-namespace: #{$seed-nav-namespace}__item !default;
+$seed-nav-link-namespace: #{$seed-nav-namespace}__link !default;
+$seed-nav-tabs-namespace: #{$seed-nav-namespace}--tabs !default;
+
+// Configs
+$seed-nav-link-padding: 16px 20px !default;
+$seed-nav-link-disabled-color: #E3E8EB !default;
+
+// Alignment
+$seed-nav-alignment: (
+  left: flex-start,
+  center: center,
+  right: flex-end,
+) !default;
+
+// Orientation
+$seed-nav-orientation: (
+  list: row,
+  stacked: column,
+) !default;
+
+// Sizes
+$seed-nav-sizes: (
+  xs: 4px 8px,
+  sm: 12px 16px,
+  md: $seed-nav-link-padding,
+) !default;
 ```

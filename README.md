@@ -8,6 +8,11 @@ npm install seed-nav --save
 ```
 
 
+## Documentation
+
+Check out our **[documentation of this pack](http://developer.helpscout.net/seed/packs/seed-nav/)**.
+
+
 ## Basic Usage
 
 ### SCSS

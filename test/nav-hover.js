@@ -16,4 +16,10 @@ describe('seed-nav: nav-hover modifier', function() {
 
     assert.isOk($o.exists());
   });
+
+  it('should have no text-decoration', function() {
+    var $o = output.$('.c-nav--hover .c-nav__link:hover');
+
+    assert.equal($o.getProp('text-decoration'), 'none');
+  });
 });

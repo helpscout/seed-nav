@@ -10,6 +10,7 @@
     .#{$seed-nav-link-namespace} {
       &:hover {
         background-color: $seed-nav-link-hover-background-color;
+        text-decoration: none;
       }
     }
   }

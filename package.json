@@ -1,6 +1,6 @@
 {
   "name": "seed-nav",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Nav component pack for Seed",
   "main": "index.js",
   "scripts": {
